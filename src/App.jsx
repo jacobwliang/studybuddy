@@ -35,6 +35,8 @@ function App() {
               }
             />
             */
+            <Route path="/home" element={<Home />} />
+            <Route path="/chat" element={<Chat />} />
             <Route path="/404" element={<NotFound />} />
             <Route path="*" element={<Navigate to="/404" />} />
           </Routes>
