@@ -12,11 +12,11 @@ import './App.css';
 function App() {
   return (
     <Router>
-      {/*<AuthProvider>*/}
+      <AuthProvider>
         <div className="App">
           <Navbar />
           <Routes>
-            {/* <Route path="/login" element={<Login />} /> 
+            <Route path="/login" element={<Login />} /> 
             <Route path="/register" element={<Register />} />
             <Route
               path="/"
@@ -34,14 +34,11 @@ function App() {
                 </PrivateRoute>
               }
             />
-            */}
-            <Route path="/home" element={<Home />} />
-            <Route path="/chat" element={<Chat />} />
             <Route path="/404" element={<NotFound />} />
             <Route path="*" element={<Navigate to="/404" />} />
           </Routes>
         </div>
-      {/*</AuthProvider>*/}
+      </AuthProvider>
     </Router>
   );
 }
