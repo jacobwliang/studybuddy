@@ -12,6 +12,10 @@ https://github.com/user-attachments/assets/33271349-664c-4929-ab7c-d9bf5f0f4dca
 - A self mastery tracker that outlines 5 generated essential questions the user must answer to understand the solution to their problem.
 - Popup buttons for generating summaries and hints for the conversation.
 
+## Architecture
+<img width="512" height="332" alt="studybuddy architecture" src="https://github.com/user-attachments/assets/9d8c099a-d9bc-4170-953e-99f3bb36459f" />
+
+
 ## Tech Stack
 Frontend: The user interface is built with **React**, using **Vite** for a fast development experience. The design is handled with **Bootstrap** and **React-Bootstrap**, while navigation is managed by **React Router Dom**.
 
