@@ -26,6 +26,9 @@ open local host link
 
 ## Credits
 Jacob Liang - Junior at Northwestern University
+
 Grant Miranda - Senior at Northwestern University
+
 Xiantong Zhao - Masters at Northwestern University
+
 Hongyuan Xu - Masters at Northwestern University
